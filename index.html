@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 
+    Author: Yuqing Zheng
+    Date: Dec 4, 2023
+    Front-end Assignment 2
+   -->
+  <title>Phaser Game</title>
+  <link rel="stylesheet" href="dist/output.css">
+  <script src="js/phaser.min.js"></script>
+  <script src="js/main.js"></script>
+  <style>
+    canvas {
+      margin: 10px auto;
+    }
+  </style>
+  <!-- Tutorial link: https://mozdevs.github.io/html5-games-workshop/en/guides/platformer/start-here/ -->
+</head>
+
+<body class="mx-24">
+
+  <div class="bg-white dark:bg-slate-800 rounded-lg px-8 py-8 ring-1 ring-slate-900/5 shadow-xl" >
+    <h1 class="text-3xl font-bold dark:text-white text-center">
+      Let's play the game!
+    </h1>
+    <h3 class="text-slate-900 dark:text-slate-400 mt-5 text-xl text-center font-medium tracking-tight">
+      Use the keyboard to move your Hero:</h3>
+    <h3 class="text-slate-900 dark:text-white mt-5 text-xl text-center font-medium tracking-tight">
+      " &uarr; ": Junmp </h3>
+    <h3 class="text-slate-900 dark:text-white mt-5 text-xl text-center font-medium tracking-tight">
+      " &rarr; ": Move right, " &larr; ": Move left</h3>
+    
+
+    <p class="text-slate-500 dark:text-slate-400 text-lg my-2">
+      Game instruction: Integer ultricies, eros quis interdum sollicitudin, 
+      sem mauris viverra ligula, eu congue leo eros id sapien. In hac habitasse 
+      platea dictumst. Mauris laoreet id neque eget aliquam. In hendrerit orci 
+      sit amet malesuada consectetur. Praesent nec massa quis massa cursus euismod. 
+      Donec vitae augue libero.
+    </p>
+    <div id="game"></div>
+  </div>
+
+  <div id="game"></div>
+</body>
+
+</html>
